@@ -1,0 +1,16 @@
+/** Named Component: super-basic static. */
+
+function FirstComponent() {
+  return <h1>My very first component.</h1>;
+}
+
+/** NamedComponent: greets
+ *
+ * Props:
+ * - name: name to introduce self with
+ */
+
+function NamedComponent({ name }) {
+  return <p>My name is {name}.</p>;
+}
+
